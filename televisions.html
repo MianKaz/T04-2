@@ -1,0 +1,141 @@
+<!doctype html> 
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Televisions | Appliance Energy (AU)</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <nav class="nav">
+      <img class="logo" src="power_logo.png" alt="Power logo" onclick="goHome()">
+      <a data-nav href="index.html">Home</a>
+      <a data-nav href="televisions.html">Televisions</a>
+      <a data-nav href="about.html">About Us</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Television Energy Tips</h1>
+    <div class="card">
+      <p><strong>Size & technology matter.</strong> Larger screens and older tech (e.g., plasma) use more energy. Modern LED/LCD and OLED sets are generally more efficient.</p>
+      <ul>
+        <li>Use the TV’s <em>Energy Saver</em> or <em>Eco</em> mode and reduce brightness where comfortable.</li>
+        <li>Disable “always-listening” voice features if you don’t use them; they can add standby draw.</li>
+        <li>Consider star rating and annual kWh on the energy label when purchasing.</li>
+      </ul>
+      
+      <h3>Typical TV Energy Use in Australia</h3>
+
+      <table class="tv-table">
+        <thead>
+          <tr>    
+              <th>Screen Size</th>
+              <th>Typical Power (Watts)</th>
+              <th>Highly Efficient (5-7 Stars)</th>
+              <th>Average Model (3-4.5 Stars)</th>
+              <th>Estimated Annual Cost</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+              <td>32-inch</td>
+              <td>30W - 45W</td>
+              <td>~110 kWh/year</td>
+              <td>~160 kWh/year</td>
+              <td>$31 - $45</td>
+          
+          </tr>
+
+          <tr>
+              <td>43-inch</td>
+              <td>50W - 65W</td>
+              <td>~180 kWh/year</td>
+              <td>~240 kWh/year</td>
+              <td>$51 - $68</td>
+          </tr>
+
+          <tr>
+              <td>55-inch</td>
+              <td>60W - 100W</td>
+              <td>~215 kWh/year</td>
+              <td>~360 to 520 kWh/year</td>
+              <td>$61 - $148</td>
+          </tr>
+
+          <tr>
+              <td>65-inch</td>
+              <td>90W - 140W</td>
+              <td>~320 kWh/year</td>
+              <td>~470 to 630 kWh/year</td>
+              <td>$91 - $180</td>
+          </tr>
+
+          <tr>
+              <td>75-inch+</td>
+              <td>140W - 180W+</td>
+              <td>~510 kWh/year</td>
+              <td>~650 to 800+ kWh/year</td>
+              <td>$145 - $228+</td>
+          </tr>
+    </tbody>
+</table>
+
+    <!-- Data Story Section -->
+    <h2>TV Energy Insights: Data Story</h2>
+    <p>This section presents findings from the Australian Government’s Television Energy Rating dataset. 
+       The aim is to help Australian consumers make informed decisions about technology, size, brand, and efficiency.</p>
+
+    <section>
+      <h3>Chart 1: What TV technologies are most common?</h3>
+      <img src="charts/Chart1.png" alt="Pie chart of TV technologies">
+      <p>Most TVs in Australia are LCD LED, while OLED is less common.</p>
+    </section>
+
+    <section>
+      <h3>Chart 2: What screen sizes are most frequent?</h3>
+      <img src="charts/Chart2.png" alt="Bar chart of TV screen sizes">
+      <p>55-inch TVs are the most common, followed by mid-range sizes like 42–50 inches.</p>
+    </section>
+
+    <section>
+      <h3>Chart 3: Which brands dominate the market?</h3>
+      <img src="charts/Chart3.png" alt="Bar chart of TV brands">
+      <p>Samsung, Sony, and Hisense have the largest number of models on the Australian market.</p>
+    </section>
+
+    <section>
+      <h3>Chart 4: Which screen type uses the least power?</h3>
+      <img src="charts/Chart4.png" alt="Bar chart of TV efficiency by technology">
+      <p>LCD TVs consume the least power, while OLEDs use slightly more but offer higher performance.</p>
+    </section>
+
+    <section>
+      <h3>Chart 5: What is the relationship between screen size and power use?</h3>
+      <img src="charts/Chart5.png" alt="Scatter plot of screen size vs power">
+      <p>Larger TVs use more power — the relationship is clearly positive.</p>
+    </section>
+
+    <section>
+      <h3>Chart 6: What is the relationship between star rating and screen size?</h3>
+      <img src="charts/Chart6.png" alt="Scatter plot of screen size vs star rating">
+      <p>Star ratings are fairly distributed across all sizes; bigger TVs can still be efficient if well designed.</p>
+    </section>
+
+    <section>
+      <h3>Conclusion</h3>
+      <p>When choosing a TV, balance size, brand, and efficiency. 
+         A 55-inch LED TV is common and energy-smart for most households.</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <span>© <span id="year"></span> Damian Nyurang</span>
+      <span>Built with assistance from Microsoft Copilot AI for starter code/content</span>
+    </div>
+  </footer>
+</body>
+</html>
