@@ -8,15 +8,16 @@
   <script defer src="script.js"></script>
 </head>
 <body>
-  <header>
-    <nav class="nav">
-      <img class="logo" src="power_logo.png" alt="Power logo" onclick="goHome()">
-      <a data-nav href="index.html">Home</a>
-      <a data-nav href="televisions.html">Televisions</a>
-      <a data-nav href="about.html">About Us</a>
-    </nav>
   </header>
-
+<h1>Appliance Energy Consumption</h1>
+<div id="content"></div>
+<!-- Give the SVG a size so shapes can be seen -->
+<svg width="300" height="150"></svg>
+<!-- Load D3 first, then your D3 code file -->
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="energy-d3.js"></script>
+</body>
+</html>
   <main>
     <h1>Appliance Energy Use in Australia</h1>
     <p>This site gives a simple overview of household appliance energy consumption in the Australian market.</p>
