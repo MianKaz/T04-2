@@ -27,6 +27,17 @@ header{
 main{max-width:1000px;margin:24px auto;padding:0 16px}
 h1{margin-top:0}
 
+.responsive-svg-container{
+  margin:0 auto;
+  width:100%;
+  max-width:1200px;
+}
+.responsive-svg-container svg{
+  display:block;
+  width:100%;
+  height:auto;
+}
+
 .card{
   border:1px solid #e5e7eb;border-radius:12px;padding:16px;background:#fffdf5
 }

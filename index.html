@@ -8,16 +8,9 @@
   <script defer src="script.js"></script>
 </head>
 <body>
-</header>
-<h1>Appliance Energy Consumption</h1>
-<div id="content"></div>
-<!-- Give the SVG a size so shapes can be seen -->
-<svg width="300" height="150"></svg>
-<!-- Load D3 first, then your D3 code file -->
-<script src="https://d3js.org/d3.v7.min.js"></script>
-<script src="energy-d3.js"></script>
-</body>
-</html>
+  <header>
+    <h1>Appliance Energy Consumption</h1>
+  </header>
   <main>
     <h1>Appliance Energy Use in Australia</h1>
     <p>This site gives a simple overview of household appliance energy consumption in the Australian market.</p>
@@ -30,6 +23,7 @@
         <li>Choosing higher-efficiency models usually pays back through lower electricity bills.</li>
       </ul>
     </section>
+    <div class="responsive-svg-container"></div>
   </main>
 
   <footer>
@@ -38,5 +32,11 @@
       <span>Built with assistance from Microsoft Copilot AI for starter code/content</span>
     </div>
   </footer>
+  <!-- D3 library -->
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <!-- T04-3 chart -->
+  <script src="t04-3-bars.js"></script>
+  <!-- Old T04-2 demo (temporarily disabled) -->
+  <!-- <script src="energy-d3.js"></script> -->
 </body>
 </html>
