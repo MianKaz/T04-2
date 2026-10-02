@@ -77,3 +77,8 @@ background-color: #f8fafc;
 .tv-table tr:hover {
 background-color: #f1f5f9;
 }
+.responsive-svg-container {
+margin: 0 auto; /* center */
+width: 100%; /* fill parent width */
+max-width: 1200px; /* cap max width */
+}
